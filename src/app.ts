@@ -19,8 +19,9 @@ const discordFlow = addKeyword<Provider, Database>('doc').addAnswer(
     }
 )
 
+
 const welcomeFlow = addKeyword<Provider, Database>(['hi', 'hello', 'hola'])
-    .addAnswer(`🙌 Hello welcome to this *Chatbot*`)
+    .addAnswer(`Hola bienvenido a mi chat bro`)
     .addAnswer(
         [
             'I share with you the following links of interest about the project',
